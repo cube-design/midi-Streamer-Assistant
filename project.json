@@ -1,0 +1,58 @@
+{
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "assets": [
+    {
+      "form": "/storage/emulated/0/脚本/MIDI Stream",
+      "to": "/project"
+    }
+  ],
+  "buildDir": "build",
+  "build": {
+    "build_id": "midiStream",
+    "build_number": 1,
+    "build_time": 0
+  },
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "ignoredDirs": [
+    "build"
+  ],
+  "encrypt-code": true,
+  "launchConfig": {
+    "displaySplash": true,
+    "hideAccessibilityServices": false,
+    "hideLauncher": false,
+    "hideLogs": true,
+    "stableMode": true,
+    "volumeUpcontrol": false,
+    "permissions": [
+      "accessibility_services",
+      "draw_overlay"
+    ],
+    "serviceDesc": "MIDI Streaming, simulate screen clicks. ",
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "MIDI Stream V1.0.6"
+  },
+  "libs": [
+    "libjackpal-androidterm5.so",
+    "libjackpal-termexec2.so"
+  ],
+  "main": "main.js",
+  "name": "MIDI Stream",
+  "outputPath": "/storage/emulated/0/脚本/build",
+  "packageName": "com.midiStream",
+  "projectDirectory": "/storage/emulated/0/脚本/MIDI Stream",
+  "scripts": {},
+  "signingConfig": {
+    "alias": null,
+    "keystore": null
+  },
+  "sourcePath": "/storage/emulated/0/脚本/MIDI Stream/main.js",
+  "versionCode": 1,
+  "versionName": "1.0.6"
+}
